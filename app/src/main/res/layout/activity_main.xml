@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".MainActivity">
+
+ <ImageView
+     android:layout_marginTop="-200dp"
+     android:layout_marginLeft="-160dp"
+     android:layout_width="400dp"
+     android:layout_height="400dp"
+
+     android:src="@drawable/back"/>
+
+
+ <ImageView
+
+     android:layout_alignParentTop="true"
+     android:layout_alignParentEnd="true"
+     android:layout_width="400dp"
+     android:layout_marginTop="-200dp"
+     android:layout_height="400dp"
+     android:layout_marginEnd="-120dp"
+     android:src="@drawable/back" />
+
+
+
+
+ <de.hdodenhof.circleimageview.CircleImageView
+     android:id="@+id/profile_image"
+     app:civ_border_width="2dp"
+android:src="@drawable/emp"
+     app:civ_border_color="#FFFFFF"
+     android:layout_marginTop="100dp"
+     android:layout_centerHorizontal="true"
+     android:layout_width="150dp"
+     android:layout_height="150dp"
+     />
+
+
+ <LinearLayout
+
+     android:layout_marginStart="90dp"
+     android:layout_alignParentBottom="true"
+     android:layout_centerHorizontal="true"
+     android:orientation="vertical"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_marginBottom="240dp">
+
+
+
+  <EditText
+      android:text="rahul1234@gmail.com"
+
+      android:id="@+id/myusername"
+      android:paddingStart="20dp"
+      android:textColorHint="@android:color/white"
+      android:hint="Username"
+      android:textColor="@android:color/white"
+      android:textSize="15sp"
+      android:background="@drawable/back2"
+      android:layout_width="match_parent"
+      android:layout_height="44dp"/>
+
+  <EditText
+      android:text="rahul0001"
+      android:inputType="textPassword"
+      android:id="@+id/mypassword"
+      android:paddingStart="20dp"
+      android:layout_marginTop="20dp"
+      android:background="@drawable/back2"
+      android:backgroundTint="@android:color/white"
+      android:theme="@style/Edittext"
+      android:textColorHint="@android:color/white"
+      android:hint="Password"
+      android:textColor="@android:color/white"
+      android:textSize="15sp"
+      android:layout_width="match_parent"
+      android:layout_height="44dp" />
+
+ </LinearLayout>
+
+
+ <Button
+     android:paddingStart="20dp"
+     android:layout_marginTop="20dp"
+     android:background="@drawable/back2"
+     android:backgroundTint="@android:color/white"
+     android:theme="@style/Edittext"
+android:gravity="center"
+     android:textColorHint="@android:color/white"
+     android:id="@+id/loginbtn"
+     android:layout_width="match_parent"
+     android:layout_height="44dp"
+     android:layout_alignParentBottom="true"
+     android:layout_marginBottom="169dp"
+     android:layout_marginLeft="45dp"
+     android:layout_marginRight="45dp"
+     android:text="Login"
+
+     android:textColor="#ffffff" />
+
+ <TextView
+     android:id="@+id/forgetpass"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentEnd="true"
+     android:layout_alignParentBottom="true"
+     android:layout_marginEnd="134dp"
+     android:layout_marginBottom="142dp"
+     android:text="forgot password?"
+     android:textColor="#ffffff" />
+
+ <TextView
+     android:id="@+id/loginadmin"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_alignParentStart="true"
+     android:layout_alignParentBottom="true"
+     android:layout_marginStart="103dp"
+     android:layout_marginLeft="120dp"
+     android:layout_marginBottom="32dp"
+     android:text="Login as Admin Login here"
+     android:textColor="#ffffff" />
+</RelativeLayout>

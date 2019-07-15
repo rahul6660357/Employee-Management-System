@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".home">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="vertical"
+       >
+
+        <Button
+android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:paddingStart="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/back2"
+            android:backgroundTint="@android:color/white"
+            android:theme="@style/Edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="548dp"
+
+
+            android:text="pending Work"
+            android:textColor="#ffffff"
+            android:textSize="15dp" />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="485dp"
+            android:background="@drawable/back2"
+            android:backgroundTint="@android:color/white"
+            android:paddingStart="20dp"
+            android:text="Work Completed"
+
+            android:textColor="#ffffff"
+            android:textSize="15dp"
+            android:theme="@style/Edittext" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+
+
+            android:layout_marginBottom="422dp"
+            android:background="@drawable/back2"
+            android:backgroundTint="@android:color/white"
+
+            android:paddingStart="20dp"
+            android:text="Mark Attendance"
+            android:textColor="#ffffff"
+            android:textSize="15dp"
+            android:theme="@style/Edittext" />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+
+
+            android:layout_marginBottom="359dp"
+            android:background="@drawable/back2"
+            android:backgroundTint="@android:color/white"
+
+            android:paddingStart="20dp"
+            android:text="Check Attendance"
+            android:textColor="#ffffff"
+            android:textSize="15dp"
+            android:theme="@style/Edittext"
+
+            />
+
+
+
+
+        <Button
+            android:id="@+id/ratingemp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+
+
+            android:layout_marginBottom="295dp"
+            android:background="@drawable/back2"
+            android:backgroundTint="@android:color/white"
+
+            android:paddingStart="20dp"
+            android:text="Check Rating"
+            android:textColor="#ffffff"
+            android:textSize="15dp"
+            android:theme="@style/Edittext"
+
+
+            />
+
+        <Button
+            android:id="@+id/applyleave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+
+
+            android:layout_marginBottom="224dp"
+            android:background="@drawable/back2"
+            android:backgroundTint="@android:color/white"
+
+            android:paddingStart="20dp"
+            android:text="Apply Leave"
+            android:textColor="#ffffff"
+            android:textSize="15dp"
+            android:theme="@style/Edittext"
+
+
+            />
+    </RelativeLayout>
+</FrameLayout>

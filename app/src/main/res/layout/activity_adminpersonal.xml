@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".adminpersonal">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter your Details"
+        android:textSize="30sp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:gravity="center"/>
+    <TextView
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Person Name"
+        android:hint="enter your name"
+        android:textSize="15sp"
+        android:textColor="#ffffff"/>
+    <EditText
+        android:id="@+id/adminname"
+        android:hint="enter your name here"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+
+        android:paddingStart="20dp"
+
+
+
+        android:textSize="15sp"
+        android:background="@drawable/back3"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="email"
+        android:textSize="15sp"
+        android:textColor="#ffffff"/>
+
+    <EditText
+android:id="@+id/adminemail"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+
+        android:layout_marginLeft="30dp"
+
+        android:layout_marginRight="30dp"
+
+        android:background="@drawable/back3"
+        android:hint="enter your email address"
+        android:paddingStart="20dp"
+        android:textSize="15sp" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textSize="15sp"
+        android:textColor="#ffffff"/>
+
+    <EditText
+android:id="@+id/adminpassword"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+
+        android:layout_marginLeft="30dp"
+
+        android:layout_marginRight="30dp"
+
+        android:background="@drawable/back3"
+        android:hint="enter your password"
+        android:paddingStart="20dp"
+        android:textSize="15sp" />
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:text="Mobile Number"
+        android:textColor="#ffffff"
+        android:textSize="15sp" />
+
+    <EditText
+android:id="@+id/adminmobile"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+
+        android:layout_marginLeft="30dp"
+
+        android:layout_marginRight="30dp"
+
+        android:background="@drawable/back3"
+        android:hint="enter your mobile number"
+        android:paddingStart="20dp"
+        android:textSize="15sp" />
+
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:textSize="15sp"
+        android:textColor="#ffffff"/>
+    <EditText
+
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+
+        android:paddingStart="20dp"
+
+        android:hint="enter your address"
+
+        android:textSize="15sp"
+        android:background="@drawable/back3"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+
+
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name of company"
+        android:textSize="15sp"
+        android:textColor="#ffffff"/>
+    <EditText
+
+        android:id="@+id/nameofcompany"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+
+        android:paddingStart="20dp"
+
+        android:hint="enter company name"
+
+        android:textSize="15sp"
+        android:background="@drawable/back3"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Work Experience"
+        android:textSize="15sp"
+        android:textColor="#ffffff"/>
+    <EditText
+        android:id="@+id/experience"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+
+        android:paddingStart="20dp"
+
+        android:hint="select"
+
+        android:textSize="15sp"
+        android:background="@drawable/back3"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+    <LinearLayout
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <Button
+
+            android:paddingStart="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/back2"
+            android:backgroundTint="@android:color/white"
+            android:theme="@style/Edittext"
+
+            android:layout_margin="10dp"
+            android:text="Cancel"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            />
+
+
+        <Button
+            android:id="@+id/savebutton"
+            android:layout_margin="10dp"
+            android:text="Save"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:paddingStart="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/back2"
+            android:backgroundTint="@android:color/white"
+            android:theme="@style/Edittext"/>
+    </LinearLayout>
+
+</LinearLayout>

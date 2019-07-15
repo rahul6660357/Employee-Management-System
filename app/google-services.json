@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "988936085609",
+    "firebase_url": "https://emsfirebaseproject-c6d6f.firebaseio.com",
+    "project_id": "emsfirebaseproject-c6d6f",
+    "storage_bucket": "emsfirebaseproject-c6d6f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:988936085609:android:825b5fc19f2a8570",
+        "android_client_info": {
+          "package_name": "com.lcoa.ems"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "988936085609-iln5a4sf94sopmc3bcp2ch1aocuuesf2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lcoa.ems",
+            "certificate_hash": "ebcf9376d0d2022413de25ef49238a20571a1e95"
+          }
+        },
+        {
+          "client_id": "988936085609-tf7hcpips070f3ji4ej848f5sd4ffsl9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjxtik5tetT6zWpxtDCLZFpx3rgwUY1f8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "988936085609-tf7hcpips070f3ji4ej848f5sd4ffsl9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

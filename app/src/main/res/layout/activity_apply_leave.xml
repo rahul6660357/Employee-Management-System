@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+android:background="@color/colorPrimaryDark"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ApplyLeave.ApplyLeave">
+<ImageView
+    android:layout_marginTop="50dp"
+    android:layout_width="wrap_content"
+    android:layout_height="100dp"
+    android:src="@drawable/application"
+    />
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From :"
+        android:layout_marginLeft="20dp"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        android:textStyle="bold"/>
+        <TextView
+            android:background="@drawable/back2"
+            android:id="@+id/datefrom"
+            android:textColor="#ffffff"
+            android:layout_width="200dp"
+            android:layout_height="44dp"
+            />
+</LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="70dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="To  :   "
+            android:textSize="25dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#000000"
+            android:textStyle="bold"/>
+        <TextView
+            android:background="@drawable/back2"
+            android:id="@+id/todate"
+            android:layout_width="200dp"
+android:textColor="#ffffff"
+            android:layout_height="44dp"
+            />
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:text="Apply"
+        android:textStyle="bold"/>
+</LinearLayout>

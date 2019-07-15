@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".AddUser"
+    app:cardBackgroundColor="@color/cardview_dark_background"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="10dp"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:src="@drawable/ic_person_black_24dp" />
+        <EditText
+            android:id="@+id/userid"
+            android:textColor="@android:color/white"
+            android:layout_margin="15dp"
+            android:textSize="30dp"
+            android:hint="Create User Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:textColor="@android:color/white"
+            android:id="@+id/username"
+            android:layout_margin="15dp"
+            android:textSize="20dp"
+            android:hint="UserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:textColor="@android:color/white"
+            android:id="@+id/emailid"
+            android:inputType="textEmailAddress"
+            android:layout_margin="15dp"
+            android:textSize="20dp"
+            android:hint="EmailId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:textColor="@android:color/white"
+            android:id="@+id/password"
+            android:layout_margin="15dp"
+            android:inputType="textPassword"
+            android:textSize="20dp"
+            android:hint="Password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/designation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_margin="15dp"
+            android:hint="Designation"
+            android:textColor="@android:color/white"
+            android:textSize="20dp" />
+        <Button
+            android:id="@+id/submitbtn"
+            android:text="Submit"
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".person">
+
+<LinearLayout
+    android:background="@color/colorPrimaryDark"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_width="244dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/ad"
+        app:civ_border_color="#FFffff"
+        app:civ_border_width="4dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Rahul Sharma"
+        android:textColor="#ffffff"
+        android:textSize="30dp"/>
+
+<Button
+    android:id="@+id/updatedp"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:text="Update profile"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:textColor="#ffffff"
+
+    android:textSize="18dp"
+
+    android:paddingStart="20dp"
+    android:layout_marginTop="20dp"
+    android:background="@color/colorAccent"
+
+    android:theme="@style/Edittext"
+    />
+
+    <RelativeLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="310dp">
+
+        <TextView
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:id="@+id/emailaddress"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:paddingTop="2dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="218dp"
+            android:background="@drawable/back2"
+            android:paddingStart="20dp"
+
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:id="@+id/changepassword"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="270dp"
+            android:background="@drawable/back2"
+            android:paddingStart="20dp"
+            android:text="change password"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:paddingBottom="3dp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:id="@+id/mobilenum"
+            android:layout_width="match_parent"
+
+            android:layout_height="44dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="166dp"
+            android:background="@drawable/back2"
+            android:paddingStart="20dp"
+            android:gravity="center"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            android:text="9996660357"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:textSize="20sp" />
+
+
+        <Button
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:id="@+id/logout1"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:paddingTop="2dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="112dp"
+            android:background="@drawable/back2"
+            android:paddingStart="20dp"
+            android:text="logout"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
+
+</RelativeLayout>
