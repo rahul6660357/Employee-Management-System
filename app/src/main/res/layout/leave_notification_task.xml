@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<androidx.cardview.widget.CardView
+    app:cardCornerRadius="10dp"
+    app:cardBackgroundColor="#ffffff"
+    android:layout_margin="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:visibility="visible"
+        android:layout_margin="5dp"
+
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:paddingBottom="5dp"
+        android:textColor="@android:color/black"
+        android:textSize="20dp"
+        android:drawableLeft="@drawable/ic_event_note_black_24dp"
+        android:id="@+id/myleavenot"
+        />
+
+
+</androidx.cardview.widget.CardView>

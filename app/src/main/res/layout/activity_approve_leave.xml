@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:layout_height="match_parent"
+    tools:context=".Approve_leave">
+
+    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_width="277dp"
+        android:layout_height="200dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="473dp"
+        android:src="@drawable/ad"
+        app:civ_border_color="#FFffff"
+        app:civ_border_width="4dp" />
+
+    <TextView
+        android:id="@+id/nameofemp"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="258dp"
+        android:layout_marginBottom="358dp"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="235dp"
+        android:layout_height="35dp"
+        android:text="has requested for leave"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="354dp" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="308dp"
+        android:layout_marginBottom="308dp"
+        android:text="From:"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/fromleave"
+        android:layout_width="236dp"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="313dp"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <TextView
+
+        android:layout_width="105dp"
+        android:layout_height="38dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="300dp"
+        android:layout_marginBottom="253dp"
+        android:text="To:"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/toleave"
+        android:layout_width="223dp"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="264dp"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="117dp"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="291dp"
+        android:layout_marginBottom="191dp"
+        android:text="Reason:"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/leavereason"
+        android:layout_width="262dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="128dp"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/approvebutton"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="94dp"
+        android:layout_marginBottom="54dp"
+        android:background="@drawable/back2"
+        android:text="Approve"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
